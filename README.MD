@@ -3,7 +3,7 @@
 
 Having bought this board, I found that the documentation was lacking critical information and the demo software had bugs.
 
-The aim of this is to share the observations with others and eventually with Waveshare so that others can bebfit from the work done.
+The aim of this is to share the observations with others and eventually with Waveshare so that others can benefit from the work done.
 
 ## Documentation
 
