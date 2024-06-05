@@ -13,12 +13,12 @@ The aim of this is to share the observations with others and eventually with Wav
 
 ### Data Sheets
 
-[FSUSB42 — Low-Power, Two-Port, High-Speed,USB2.0 (480Mbps) UART Switch](https://www.farnell.com/datasheets/2299789.pdf)
-[CH334 and CH335 are USB2.0 protocol compliant 4-port USB HUB](https://static.klayers.net/pdf/2308/CH334DS1-Qinheng_KL-024-0000879.pdf)
-[CH343 Datasheet - USB to High-Speed Serial Chip CH343](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.wch-ic.com/downloads/file/296.html&ved=2ahUKEwio6cjA5MCGAxXXbmwGHR4XAc0QFnoECAsQAQ&usg=AOvVaw0A96-5ImuwCusa5MEP8zfA)
-[EA3036C -3CH power management IC for applications powered by one Li-Ion battery or a DC 5V adapter](http://www.everanalog.com/Product/ProductEA3036CDetailInfo.aspx)
-[ESP32-S3 Series Datasheet](https://www.espressif.com/en/support/documents/technical-documents?keys=&field_type_tid%5B%5D=842)
-[MAX17048/MAX17049 3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf)
+- FSUSB42 [Low-Power, Two-Port, High-Speed,USB2.0 (480Mbps) UART Switch](https://www.farnell.com/datasheets/2299789.pdf)
+- CH334 and CH335 [USB2.0 protocol compliant 4-port USB HUB](https://static.klayers.net/pdf/2308/CH334DS1-Qinheng_KL-024-0000879.pdf)
+- CH343 [USB to High-Speed Serial Chip CH343](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.wch-ic.com/downloads/file/296.html&ved=2ahUKEwio6cjA5MCGAxXXbmwGHR4XAc0QFnoECAsQAQ&usg=AOvVaw0A96-5ImuwCusa5MEP8zfA)
+- EA3036C [3CH power management IC for applications powered by one Li-Ion battery or a DC 5V adapter](http://www.everanalog.com/Product/ProductEA3036CDetailInfo.aspx)
+- ESP32-S3 [Series Datasheet](https://www.espressif.com/en/support/documents/technical-documents?keys=&field_type_tid%5B%5D=842)
+- MAX17048/MAX17049 [3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf)
 
 # ANTHING BELOW THIS LINE IS IN DEVELOPMENT[!]
 
