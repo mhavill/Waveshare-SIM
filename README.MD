@@ -9,7 +9,7 @@ The aim of this is to share the observations with others and eventually with Wav
 
 [Waveshare Documentation](https://www.waveshare.com/wiki/ESP32-S3-SIM7670G-4G)  
 
-Reversed Engineered [Diagrams](Diagrams\block_diagram.drawio)
+Reversed Engineered [Diagrams](/Diagrams/)
 
 # ANTHING BELOW THIS LINE IS IN DEVELOPMENT[!]
 
