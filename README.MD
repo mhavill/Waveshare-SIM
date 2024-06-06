@@ -20,6 +20,33 @@ The aim of this is to share the observations with others and eventually with Wav
 - ESP32-S3 [Series Datasheet](https://www.espressif.com/en/support/documents/technical-documents?keys=&field_type_tid%5B%5D=842)
 - MAX17048/MAX17049 [3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf)
 
+# Issues in Demo Code
+
+ESP32-S3-A-SIM7670X-4G-example
+
+- json_parser missing include - replaced with jsmn from ESP Component Registry
+
+CameraWebServer
+
+- why are they using Softwate Serial wihen there are so many UARTs on the board?
+
+AP
+
+bat
+
+- incorrect addressing of MAX17048 chip
+- Useless if conditiontest and code
+
+bin
+
+- no source code for this example
+
+RGB
+
+LCD
+
+- Why is this there? there is no LCD
+
 # ANTHING BELOW THIS LINE IS IN DEVELOPMENT[!]
 
 ---------------------------------------------------------------
