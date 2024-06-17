@@ -23,8 +23,8 @@ The aim of this is to share the observations with others and eventually with Wav
 # Issues in Demo Code
 
 ESP32-S3-A-SIM7670X-4G-example
+- USB hub definitions seem to be wrong for this hardware - selected custom board rather than 
 
-- json_parser missing include - replaced with jsmn from ESP Component Registry
 
 CameraWebServer
 
@@ -58,6 +58,8 @@ LCD
 - Live Previews
 
 ## Lessons Learned
+
+- for using board with PIO I had to create a new board definition and a variant for pins
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?  
 
