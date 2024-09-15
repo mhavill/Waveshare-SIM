@@ -25,7 +25,11 @@ The aim of this is to share the observations with others and eventually with Wav
 
 ESP32-S3-A-SIM7670X-4G-example
 
-- USB hub definitions seem to be wrong for this hardware - selected custom board rather than
+- USB hub definitions seem to be wrong for this hardware - selected custom board rather than default in the example.
+- Modem Channel connections wrong
+- security  of wifi AP updated
+- app in chinese - translated now to English
+- Performance about 30% speed of commercial mifi!!!
 
 CameraWebServer
 
