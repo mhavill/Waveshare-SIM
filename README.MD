@@ -19,12 +19,13 @@ The aim of this is to share the observations with others and eventually with Wav
 - EA3036C [3CH power management IC for applications powered by one Li-Ion battery or a DC 5V adapter](http://www.everanalog.com/Product/ProductEA3036CDetailInfo.aspx)
 - ESP32-S3 [Series Datasheet](https://www.espressif.com/en/support/documents/technical-documents?keys=&field_type_tid%5B%5D=842)
 - MAX17048/MAX17049 [3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf)
+- Espressif Regitry - [usb_cdc_4g_module README](https://components.espressif.com/components/espressif/iot_usbh_modem/versions/0.1.6/examples/usb_cdc_4g_module?language=)
 
 # Issues in Demo Code
 
 ESP32-S3-A-SIM7670X-4G-example
-- USB hub definitions seem to be wrong for this hardware - selected custom board rather than 
 
+- USB hub definitions seem to be wrong for this hardware - selected custom board rather than
 
 CameraWebServer
 

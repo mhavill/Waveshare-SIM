@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>ESP-Router</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="./img/favicon.ico">
+</head>
+
+<body>
+  <div class="home-base">
+    <div class="header-base flex flex-jcb">
+        <img class="header-logo" src="./img/logoBlack.png">
+        <div class="header-menu" onclick="menuClick(this)">
+        </div>
+    </div>
+    <div class="content-base flex">
+      <div class="left-base" id="leftMenu">
+<!--        <div class="left-title">系统菜单</div>-->
+        <ul>
+          <li>
+            <a href="index.html" class="content">system status</a>
+          </li>
+<!--          <li>-->
+<!--            <a href="">网络设置</a>-->
+<!--          </li>-->
+          <li>
+            <a href="wlan.html">WLAN</a>
+          </li>
+<!--          <li>-->
+<!--            <a href="">流量统计</a>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <a href="">系统管理</a>-->
+<!--          </li>-->
+        </ul>
+      </div>
+      <div class="right-base">
+        <div class="page-header">
+          <span class="header-title-one" onclick="networkStatus()">network status</span>
+          <span>/</span>
+          <span class="header-title-two" onclick="customerList()">Client List</span>
+        </div>
+        <div class="page-content" id="networkShow">
+          <div class="page-title">basic state</div>
+          <div class="base-detail flex">
+            <div class="base-one flex flex-v">
+              <img src="./img/xinhao.png">
+              <span>Internet</span>
+            </div>
+            <div class="base-two">
+              <div class="base-line-text flex flex-jcc">
+<!--                <span>勾</span>-->
+                <span>Mobile data is normal</span>
+              </div>
+              <div class="base-line"></div>
+            </div>
+            <div class="base-three flex flex-v">
+              <img src="./img/luyouqi.png">
+              <span>My device</span>
+            </div>
+            <div class="base-two">
+              <div class="base-line-text flex flex-jcc">
+<!--                <span>勾</span>-->
+                <span>2.4 GHz Wi-Fi normal</span>
+              </div>
+              <div class="base-line"></div>
+            </div>
+            <div class="base-five flex flex-v">
+              <img src="./img/shebei.png">
+              <span>Number of clients</span>
+            </div>
+          </div>
+          <div class="page-title">device status</div>
+          <div class="device-detail">
+              <div class="device-status-two flex flex-jcb">
+                  <div class="device-battery">
+                      <span>continuous duration</span>
+                      <span class="device-content" id="connect-time">xxx</span>
+                  </div>
+                  <div class="device-connect-count">
+                      <span>Number of remaining connections</span>
+                      <span class="device-content" id="remain-count">x station</span>
+                  </div>
+              </div>
+              <div class="device-status-one flex flex-jcb">
+<!--                  <div class="device-battery">-->
+<!--                      <span>电量情况</span>-->
+<!--                      <span class="device-content">95%</span>-->
+<!--                  </div>-->
+                  <div class="device-connect-count">
+                      <span>Number of connections</span>
+                      <span class="device-content" id="connect-count">x station</span>
+                  </div>
+              </div>
+          </div>
+<!--          <div class="page-title">实时网络状态</div>-->
+<!--          <div class="network-detail">-->
+<!--            <div class="device-status-one  flex flex-jcb">-->
+<!--              <div class="device-battery">-->
+<!--                <span>当前下载</span>-->
+<!--                <span class="device-content">xxx</span>-->
+<!--              </div>-->
+<!--              <div class="device-connect-count">-->
+<!--                <span>最快下载</span>-->
+<!--                <span class="device-content">xxx</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="device-status-two  flex flex-jcb">-->
+<!--              <div class="device-battery">-->
+<!--                <span>总上传量</span>-->
+<!--                <span class="device-content">xxx</span>-->
+<!--              </div>-->
+<!--              <div class="device-connect-count">-->
+<!--                <span>平均下载</span>-->
+<!--                <span class="device-content">xxx</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="device-status-three  flex flex-jcb">-->
+<!--              <div class="device-battery">-->
+<!--                <span>总下载量</span>-->
+<!--                <span class="device-content">xxx</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+        <div class="page-content" id="customerShow">
+          <div class="page-title">Online client</div>
+          <div class="page-detail">
+            <table class="tableStyle tCenter">
+                <thead>
+                    <tr>
+                        <th>CPU name</th>
+                        <th>MAC</th>
+                        <th>IP</th>
+                        <th>connection time</th>
+                        <th>operate</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+  <script>
+    initHash();
+    window.addEventListener('hashchange', function() {
+      initHash();
+    })
+  </script>
+</body>
+
+</html>

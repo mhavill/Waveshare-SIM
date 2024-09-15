@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>ESP-Router</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./img/favicon.ico">
+    <script src="js/wlan.js"></script>
+</head>
+
+<body>
+<div class="home-base">
+    <div class="header-base">
+        <img class="header-logo" src="./img/logoBlack.png">
+        <div class="header-menu" onclick="menuClick(this)">
+        </div>
+    </div>
+    <div class="content-base flex">
+        <div class="left-base" id="leftMenu">
+<!--            <div class="left-title">系统菜单</div>-->
+            <ul>
+                <li>
+                    <a href="index.html">system status</a>
+                </li>
+<!--                <li>-->
+<!--                    <a href="">网络设置</a>-->
+<!--                </li>-->
+                <li>
+                    <a href="wlan.html" class="content">WLAN</a>
+                </li>
+<!--                <li>-->
+<!--                    <a href="">流量统计</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="">系统管理</a>-->
+<!--                </li>-->
+            </ul>
+        </div>
+        <div class="right-base">
+            <div class="page-header">
+                <span class="header-title-one" onclick="baseSetting()">basic settings</span>
+                <span>/</span>
+                <span class="header-title-two" onclick="advanceSetting()">advanced settings</span>
+            </div>
+            <div class="page-content" id="baseShow">
+                <div class="page-title">Below you can make basic WLAN settings</div>
+                <div class="page-detail">
+                    <div class="line-base">
+                        <span class="title">WLAN name:</span>
+                        <input class="content" id="wlanName" placeholder="please enter WLAN name">
+                    </div>
+                    <div class="line-base">
+                        <span class="title">safe mode:</span>
+                        <select class="content" id="model" name="chian"><!--下拉列表-->
+                            <option value="OPEN">No encryption</option>
+                            <option value="WEP">WEP</option>
+                            <option value="WPA2_PSK" selected="selected">WPA2PSK</option>
+                            <option value="WPA_WPA2_PSK">WPA/WPA2-PSK</option>
+                        </select>
+                    </div>
+                    <div class="line-base">
+                        <span class="title">password:</span>
+                        <input class="content" id="password" placeholder="Please enter password">
+                    </div>
+                    <div class="line-base flex flex-ac">
+                        <span class="title">WLAN stealth :</span>
+                        <input class="content-two" type="checkbox" id="select" name="sel"/>
+                        <span class="content-thr">WLAN After turning it on, you must enter the correct WLAN name to connect to WLAN and WLAN WPS will be unavailable</span>
+                    </div>
+                    <div class="line-base-btn">
+                        <button class="save-btn" onclick="baseSave()">keep</button>
+                    </div>
+                </div>
+            </div>
+            <div class="page-content" id="highShow">
+                <div class="page-title">You can Set the following two custom WLAN settings</div>
+                <div class="page-detail">
+                    <div class="line-base">
+                        <span class="title">broadband:</span>
+                        <select class="content" id="broadband" name="chian"><!--下拉列表-->
+                            <option value="20" selected="selected">20MHz</option>
+                            <option value="40">40MHz</option>
+                        </select>
+                    </div>
+                    <div class="line-base">
+                        <span class="title">channel:</span>
+                        <select class="content" id="channel" name="chian"><!--下拉列表-->
+<!--                            <option value="0" selected="selected">自动</option>-->
+                            <option value="1" selected="selected">1</option>
+                            <option value="2" >2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6" >6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11" >11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                        </select>
+                    </div>
+                    <div class="line-base-btn">
+                        <button class="save-btn" onclick="highSave()">keep</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+  initHash();
+  window.addEventListener('hashchange', function() {
+    initHash();
+  })
+</script>
+</body>
+
+</html>
