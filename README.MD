@@ -45,12 +45,13 @@ bat
 bin
 
 - no source code for this example
+- these bin files are used if you'd like to use the portable wifi demo referenced in the waveshare wiki. You will need to flash these procompiled programs straight to the esp32, more info on the wiki
 
 RGB
 
 LCD
 
-- Why is this there? there is no LCD
+- for waveshares ESP32-S3-Touch-LCD-4.3, not used with this board
 
 # ANTHING BELOW THIS LINE IS IN DEVELOPMENT[!]
 
