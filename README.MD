@@ -40,7 +40,7 @@ AP
 bat
 
 - incorrect addressing of MAX17048 chip
-- Useless if conditiontest and code
+- Useless if condition test and code
 
 bin
 
@@ -51,7 +51,7 @@ RGB
 
 LCD
 
-- for waveshares ESP32-S3-Touch-LCD-4.3, not used with this board
+- for Waveshares ESP32-S3-Touch-LCD-4.3, not used with this board
 
 # ANTHING BELOW THIS LINE IS IN DEVELOPMENT[!]
 
