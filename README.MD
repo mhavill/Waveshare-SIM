@@ -53,6 +53,29 @@ LCD
 
 - for Waveshares ESP32-S3-Touch-LCD-4.3, not used with this board
 
+# Contact with WaveShare Support
+
+I wrote:May 29, 2024, 04:40 UTC
+Having received the order, I have been working through the demonstration code and examples with mixed success.
+1) However, I suspect that some of my issues experienced are due to lacking information on the DIP switch settings and how they should be set for each example. Can you direct me to the information about the switch settings?
+2) I have flashed the binary code for the 'Portable WiFi demo' which has worked successfully. Can you point me to the source code for this demo as I would like to change the SSID, Passcode and WiFi encryption which are security weaknesses? 
+
+They replied:
+1)DIP switch
+CAM: Control to turn on or off the camera function
+HUB: Control USB HUB driver circuit power supply
+4G: Control A7670E module power supply
+USB: Control A7670E module USB channel selection
+ 
+2） The following is the source code, which can be used to adjust SSID, password, and WiFi encryption：
+[sample demo](https://files.waveshare.com/wiki/ESP32-S3-A7670E-4G/ESP32-S3-A-SIM7670X_4G.zip)
+Best wish!
+
+ 
+Visitor 693680106914
+
+
+
 # ANTHING BELOW THIS LINE IS IN DEVELOPMENT[!]
 
 ---------------------------------------------------------------
