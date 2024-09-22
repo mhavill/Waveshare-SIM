@@ -40,7 +40,8 @@ AP
 bat
 
 - incorrect addressing of MAX17048 chip
-- Useless if condition test and code
+- There is a useless if condition test and calculation error
+- See the modifiesd code in the bat folder which incudes correct State of Charge, Charging Rate and voltage
 
 bin
 
