@@ -20,6 +20,7 @@ The aim of this is to share the observations with others and eventually with Wav
 - ESP32-S3 [Series Datasheet](https://www.espressif.com/en/support/documents/technical-documents?keys=&field_type_tid%5B%5D=842)
 - MAX17048/MAX17049 [3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf)
 - Espressif Regitry - [usb_cdc_4g_module README](https://components.espressif.com/components/espressif/iot_usbh_modem/versions/0.1.6/examples/usb_cdc_4g_module?language=)
+- SIM7670G - [Command Manual](https://simcom.ee/documents/SIM7600C/SIM7500_SIM7600%20Series_AT%20Command%20Manual_V1.01.pdf), [Hardware Design](https://simcom.ee/documents/SIM7600E/SIM7600%20Series_PCIE_Hardware%20Design_V1.01.pdf)
 
 # Issues in Demo Code
 
