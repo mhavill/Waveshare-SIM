@@ -1,0 +1,45 @@
+dependencies:
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      storage_url: file:///C:/Espressif/registry
+      type: service
+    version: 0.5.3
+  espressif/iot_usbh:
+    component_hash: 6248b9fb5c33ee7a0572c75947d79ec9f1ef44c0a2dd123665b22424d49e956e
+    source:
+      type: service
+    version: 0.2.1
+  espressif/iot_usbh_cdc:
+    component_hash: ea4c77448c25661585e9219e2d65df479ac35102e93205a6085cdb75fbf48c67
+    source:
+      type: service
+    version: 0.2.2
+  espressif/iot_usbh_modem:
+    component_hash: 7dbbe32683f7e7e8755c1ad4906c129cd7d3524e9e256794d6391270d0146158
+    source:
+      type: service
+    version: 0.2.1
+  espressif/jsmn:
+    component_hash: d80350c41bbaa827c98a25b6072df00884e72f54885996fab4a4f0aebce6b6c3
+    source:
+      type: service
+    version: 1.1.0
+  espressif/json_parser:
+    component_hash: d74b81729ad06ec11ff5eb5b1b0d7df1d00e6027fc11471f4b139c70dcf1b1e4
+    source:
+      type: service
+    version: 1.0.3
+  espressif/led_indicator:
+    component_hash: daa844acf7886b78fa4ea25c9dd6a4fb3a83f793a307187026be1c237fba632a
+    source:
+      type: service
+    version: 0.3.0
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.1
+manifest_hash: 4ac069ff26a8093dd237a33de53cc9e3ce3f135ecbd74f47c3114fab67a6f09f
+target: esp32s3
+version: 1.0.0

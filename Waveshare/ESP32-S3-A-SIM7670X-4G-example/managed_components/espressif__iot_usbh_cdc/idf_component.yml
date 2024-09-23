@@ -1,0 +1,17 @@
+dependencies:
+  cmake_utilities:
+    version: 0.*
+  idf:
+    version: '>=4.4.1'
+  iot_usbh:
+    public: true
+    version: 0.*
+description: Simple USB Host CDC driver maintained in esp-iot-solution
+documentation: https://docs.espressif.com/projects/esp-iot-solution/en/latest/usb/usb_host_iot_usbh_cdc.html
+issues: https://github.com/espressif/esp-iot-solution/issues
+repository: https://github.com/espressif/esp-iot-solution/tree/master/components/usb/iot_usbh_cdc
+targets:
+- esp32s2
+- esp32s3
+url: https://github.com/espressif/esp-iot-solution/tree/master/components/usb/iot_usbh_cdc
+version: 0.2.2
